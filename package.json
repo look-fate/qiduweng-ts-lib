@@ -1,0 +1,37 @@
+{
+  "name": "qiduweng-divination",
+  "version": "1.0.0",
+  "description": "戚都翁五星占排盘核心算法库",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "divination",
+    "五星占",
+    "排盘",
+    "五星占卜",
+    "中国传统占卜",
+    "戚都翁"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  }
+}
